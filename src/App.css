@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.6) 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+}
+
+.text {
+  font-size: 55px;
+}
+
+.word {
+  display: inline-block;
+  margin-right: 5px;
+}
